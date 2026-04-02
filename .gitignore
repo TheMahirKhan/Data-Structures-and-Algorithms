@@ -1,0 +1,25 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Static/Dynamic libraries
+*.a
+*.so
+*.dll
+*.dylib
+
+# Build directories
+build/
+bin/
+out/
+
+# CMake / Make files (optional depending on your setup)
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
