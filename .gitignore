@@ -1,25 +1,9 @@
-# Executables
-*.exe
-*.out
-*.app
-
-# Object files
 *.o
+*.out
+*.exe
 *.obj
-
-# Static/Dynamic libraries
-*.a
-*.so
-*.dll
-*.dylib
-
-# Build directories
+*.log
+*.class
 build/
 bin/
-out/
-
-# CMake / Make files (optional depending on your setup)
-CMakeFiles/
-CMakeCache.txt
-Makefile
-cmake_install.cmake
+.vscode/
