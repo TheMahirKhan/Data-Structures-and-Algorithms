@@ -29,7 +29,8 @@ bool isPossible(vector<int> &arr, int distance, int cows)
 
     for (int i = 1; i < n; i++)
     {
-        if ((arr[i] - lastCowPos) >= distance)
+        int currDist = arr[i] - lastCowPos;
+        if (currDist >= distance)
         {
             countCows++;
             lastCowPos = arr[i];
